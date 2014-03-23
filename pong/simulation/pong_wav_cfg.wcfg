@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="/home/florent/work/projects/Papilio_pro_fpga/pong/isim.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="numeric_std" />
+            <top_module name="pong_bench" />
+            <top_module name="std_logic_1164" />
+            <top_module name="std_logic_arith" />
+            <top_module name="std_logic_signed" />
+            <top_module name="std_logic_unsigned" />
+            <top_module name="textio" />
+            <top_module name="vcomponents" />
+            <top_module name="vital_primitives" />
+            <top_module name="vital_timing" />
+            <top_module name="vpkg" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="2" />
+   <wvobject fp_name="group1" type="group">
+      <obj_property name="label">pong</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/pong_bench/uut/clk" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pong_bench/uut/clk_s" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">clk_s</obj_property>
+         <obj_property name="ObjectShortName">clk_s</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pong_bench/uut/switch0" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">switch0</obj_property>
+         <obj_property name="ObjectShortName">switch0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pong_bench/uut/rst_n" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">rst_n</obj_property>
+         <obj_property name="ObjectShortName">rst_n</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pong_bench/uut/led0" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">led0</obj_property>
+         <obj_property name="ObjectShortName">led0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pong_bench/uut/vga_hsync" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">vga_hsync</obj_property>
+         <obj_property name="ObjectShortName">vga_hsync</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pong_bench/uut/vga_vsync" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">vga_vsync</obj_property>
+         <obj_property name="ObjectShortName">vga_vsync</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pong_bench/uut/led1" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">led1</obj_property>
+         <obj_property name="ObjectShortName">led1</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pong_bench/uut/activedisplay_s" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">activedisplay_s</obj_property>
+         <obj_property name="ObjectShortName">activedisplay_s</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pong_bench/uut/border" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">border</obj_property>
+         <obj_property name="ObjectShortName">border</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pong_bench/uut/vga_blue" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">vga_blue[1:0]</obj_property>
+         <obj_property name="ObjectShortName">vga_blue[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pong_bench/uut/vga_green" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">vga_green[2:0]</obj_property>
+         <obj_property name="ObjectShortName">vga_green[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pong_bench/uut/vga_red" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">vga_red[2:0]</obj_property>
+         <obj_property name="ObjectShortName">vga_red[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pong_bench/uut/col_s" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">col_s[9:0]</obj_property>
+         <obj_property name="ObjectShortName">col_s[9:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pong_bench/uut/row_s" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">row_s[9:0]</obj_property>
+         <obj_property name="ObjectShortName">row_s[9:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group2" type="group">
+      <obj_property name="label">vga_ctrl</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/pong_bench/uut/U_vga_ctrl/vga_sync_h_o" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">vga_sync_h_o</obj_property>
+         <obj_property name="ObjectShortName">vga_sync_h_o</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pong_bench/uut/U_vga_ctrl/vga_sync_v_o" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">vga_sync_v_o</obj_property>
+         <obj_property name="ObjectShortName">vga_sync_v_o</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pong_bench/uut/U_vga_ctrl/vga_active_display_o" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">vga_active_display_o</obj_property>
+         <obj_property name="ObjectShortName">vga_active_display_o</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pong_bench/uut/U_vga_ctrl/vga_row_o" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">vga_row_o[9:0]</obj_property>
+         <obj_property name="ObjectShortName">vga_row_o[9:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pong_bench/uut/U_vga_ctrl/vga_column_o" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">vga_column_o[9:0]</obj_property>
+         <obj_property name="ObjectShortName">vga_column_o[9:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pong_bench/uut/U_vga_ctrl/clk_i" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">clk_i</obj_property>
+         <obj_property name="ObjectShortName">clk_i</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pong_bench/uut/U_vga_ctrl/rst_n" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">rst_n</obj_property>
+         <obj_property name="ObjectShortName">rst_n</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pong_bench/uut/U_vga_ctrl/counterh_s" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">counterh_s[9:0]</obj_property>
+         <obj_property name="ObjectShortName">counterh_s[9:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pong_bench/uut/U_vga_ctrl/counterv_s" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">counterv_s[9:0]</obj_property>
+         <obj_property name="ObjectShortName">counterv_s[9:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pong_bench/uut/U_vga_ctrl/colh_s" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">colh_s[9:0]</obj_property>
+         <obj_property name="ObjectShortName">colh_s[9:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pong_bench/uut/U_vga_ctrl/rowv_s" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">rowv_s[9:0]</obj_property>
+         <obj_property name="ObjectShortName">rowv_s[9:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pong_bench/uut/U_vga_ctrl/vgasynch_s" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">vgasynch_s</obj_property>
+         <obj_property name="ObjectShortName">vgasynch_s</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pong_bench/uut/U_vga_ctrl/vgasyncv_s" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">vgasyncv_s</obj_property>
+         <obj_property name="ObjectShortName">vgasyncv_s</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pong_bench/uut/U_vga_ctrl/activh_s" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">activh_s</obj_property>
+         <obj_property name="ObjectShortName">activh_s</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pong_bench/uut/U_vga_ctrl/activv_s" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">activv_s</obj_property>
+         <obj_property name="ObjectShortName">activv_s</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pong_bench/uut/U_vga_ctrl/countermaxh_c" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">countermaxh_c[9:0]</obj_property>
+         <obj_property name="ObjectShortName">countermaxh_c[9:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pong_bench/uut/U_vga_ctrl/frontporchtimeh_c" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">frontporchtimeh_c[9:0]</obj_property>
+         <obj_property name="ObjectShortName">frontporchtimeh_c[9:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pong_bench/uut/U_vga_ctrl/synctimeh_c" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">synctimeh_c[9:0]</obj_property>
+         <obj_property name="ObjectShortName">synctimeh_c[9:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pong_bench/uut/U_vga_ctrl/backporchtimeh_c" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">backporchtimeh_c[9:0]</obj_property>
+         <obj_property name="ObjectShortName">backporchtimeh_c[9:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pong_bench/uut/U_vga_ctrl/countermaxv_c" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">countermaxv_c[9:0]</obj_property>
+         <obj_property name="ObjectShortName">countermaxv_c[9:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pong_bench/uut/U_vga_ctrl/frontporchtimev_c" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">frontporchtimev_c[9:0]</obj_property>
+         <obj_property name="ObjectShortName">frontporchtimev_c[9:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pong_bench/uut/U_vga_ctrl/synctimev_c" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">synctimev_c[9:0]</obj_property>
+         <obj_property name="ObjectShortName">synctimev_c[9:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pong_bench/uut/U_vga_ctrl/backporchtimev_c" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">backporchtimev_c[9:0]</obj_property>
+         <obj_property name="ObjectShortName">backporchtimev_c[9:0]</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>
